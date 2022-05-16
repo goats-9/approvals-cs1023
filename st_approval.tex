@@ -1,0 +1,153 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Inbuilt themes in beamer
+\documentclass{beamer}
+
+% Theme choice:
+\usetheme{CambridgeUS}
+
+% Title page details: 
+\title{Proposal for Student Approvals Portal} 
+\author[Deepshikha M. (CS21BTECH11016)]{Deepshikha M. (CS21BTECH11016) \\
+Gautam Singh (CS21BTECH11018) \\
+Harsh Goyal (CS21BTECH11020)}
+\date{\today}
+\logo{\large \LaTeX{}}
+
+
+\begin{document}
+
+% Title page frame
+\begin{frame}
+    \titlepage 
+\end{frame}
+
+% Remove logo from the next slides
+\logo{}
+
+
+% Outline frame
+\begin{frame}{Outline}
+    \tableofcontents
+\end{frame}
+
+\section{Languages Used}
+\begin{frame}{Languages Used}
+\begin{enumerate}
+\item SQL (For database)
+\item C++ (Backend, integration with SQL and frontend)
+\item Frontend?
+\end{enumerate}
+\end{frame}
+
+% Lists frame
+\section{Login}
+\begin{frame}{Login}
+
+Login credentials:
+
+\begin{enumerate}
+\item Clearance Level (?)
+\item Username
+\item Password
+\item Forgot password (How to identify?)
+\item Captcha (Possibly?)
+\end{enumerate}
+
+Checks for incorrect password, usernames.
+\end{frame}
+
+\section{Types of Approvals Supported}
+\begin{frame}{List of Approvals}
+\begin{enumerate}
+\item Housing Approval
+\begin{enumerate}
+\item Guest House Approval
+\item Hostel Room Approval
+\item Married Student Housing Approval
+\item Day Scholar Approval
+\end{enumerate}
+\item Mess Approval
+\item Scholarship Approval
+\item Leave Approval
+\item Course Change Approval (?)
+\item Project Approval
+\begin{enumerate}
+\item Approval for research/project proposal
+\item Approval for use of equipments
+\end{enumerate}
+\end{enumerate}
+\end{frame}
+
+\section{Settings}
+\begin{frame}
+\begin{enumerate}
+\item Edit profile
+\item Change password
+\item Log out
+\item Accessibility
+\end{enumerate}
+\end{frame}
+
+\section{Actors}
+\begin{frame}
+\begin{enumerate}
+\item Students
+\begin{enumerate}
+\item B. Tech/ B. Des Students
+\item M. Tech Students
+\item Ph. D. Students
+\end{enumerate}
+\item Approvers
+\item Admin
+\end{enumerate}
+\end{frame}
+
+% Blocks frame
+\section{Functionalities at Each Level}
+\begin{frame}{Admin}
+\begin{enumerate}
+\item Add users
+\item View users
+\item Delete users
+\item View tickets
+\item Reply to ticket
+\item Close ticket
+\item Edit approvals
+\item Delete approvals
+\end{enumerate}
+\end{frame} 
+
+\begin{frame}{Approvers}
+\begin{enumerate}
+\item View approval requests
+\item Edit approval requests
+\item Raise tickets
+\item View tickets
+\item Reply to tickets
+\item Close tickets
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Students}
+\begin{enumerate}
+\item Request approval
+\item View approval requests
+\item Edit approval requests
+\item Submit approval request
+\item Delete approval requests
+\item Raise ticket
+\item View raised tickets
+\item Follow-up on raised tickets
+\end{enumerate}
+\end{frame}
+
+\end{document}

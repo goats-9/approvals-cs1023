@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Aprroval Management System</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+    <a href="index.html"><img src="logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" oneclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="contact page\contact.html">CONTACT US</a></li>
+            <li><a href="login\login.html">LOGIN</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" oneclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+    <h1>STUDENT'S APPROVAL MANAGEMENT SYSTEM</h1>
+    </div>   
+</section>
+
+<section class="approvals">
+<h1>Approvals we offer</h1>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Housing Approval</h3>
+        <p>jaisaj</p>
+    </div>
+
+
+    <div class="course-col">
+        <h3>Mess Approval</h3>
+        <p>scbugfk</p>
+    </div>
+
+
+    <div class="course-col">
+        <h3>Scholarship Approval</h3>
+        <p>basufgkq</p>
+    </div>
+</div>
+  
+
+<div class="row">
+    <div class="course-col">
+        <h3>Project Approval</h3>
+        <p>bcegfkam</p>
+    </div>
+
+
+    <div class="course-col">
+        <h3>Leave Approval</h3>
+        <p>jzsbciuaf</p>
+    </div>
+
+
+    <div class="course-col">
+        <h3>Course change Approval</h3>
+        <p>cmaiu</p>
+    </div>
+</div>
+
+</section>
+
+
+<section class="campus">
+<h1>Our Campus</h1>
+<div class="row">
+  <div class="campus-col">
+    <img src="images/office.jpg">
+    <div class="layer">
+        <h3>OFFICE</h3>
+    </div>
+  </div>
+  <div class="campus-col">
+    <img src="images/acad.jpg">
+    <div class="layer">
+        <h3>ACAD</h3>
+    </div>
+  </div>
+  <div class="campus-col">
+    <img src="images/mess.jpg">
+    <div class="layer">
+        <h3>MESS</h3>
+    </div>
+  </div>
+    
+</div>
+</section>
+
+<div class="extra">
+    <p>Made with <i class="fa-fa-heart-o"></i>by DGH</p>
+</div>
+
+
+<!------JS for toggle menu-->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script> 
+
+</body>
+</html>
